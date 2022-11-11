@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.cdnfonts.com/css/norse" rel="stylesheet">
+                
+
+</head>
+
+<body>
+    <h1>Welcome to the Elder Futhark Runes Encoder/Decoder</h1>
+    <h1>ᚹᛖᛚᚲᛟᛗᛖ ᛏᛟ ᛏᚺᛖ ᛖᛚᛞᛖᚱ ᚠᚢᛏᚺᚨᚱᚲ ᚱᚢᚾᛖᛋ ᛖᚾᚲᛟᛞᛖᚱ ᛞᛖᚲᛟᛞᛖᚱ</h1>
+
+    <div class="wrapper">
+        <div class="text">
+            <textarea id="entrada" placeholder="Write your text here (do not use contraction)"></textarea>
+            <div class="buttons">
+                <button id="uno" type="button">Encode</button>
+                <button id="dos" type="button">Decode</button>
+            </div>
+        </div>
+
+
+        <div class="result">
+            <textarea name="" id="encriptado" readonly></textarea>
+            <!-- Creating a button and asigning it a js function to copy text on click -->
+            <button id="copy" onclick="copiar()">Copy</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
