@@ -22,6 +22,18 @@ h1 {
     text-align: center;
 }
 
+.notice{
+    width: 220px;
+    height: fit-content;
+    color: black;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    background-color: #2e9fcc;
+    margin-right: 100px;
+}
+
 .text {
     width: 50%;
     height: 66%;
@@ -94,7 +106,7 @@ span {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 920px) {
     button {
         width: 100%;
     }
@@ -103,5 +115,13 @@ span {
         width: 80%;
         margin: 0;
         margin-top: 10px;
+    }
+
+    .notice{
+        display: none;
+    }
+
+    h1{
+        font-size: 30px;
     }
 }
