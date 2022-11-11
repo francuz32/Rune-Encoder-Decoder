@@ -13,7 +13,7 @@ document.getElementById("uno").onclick = function convertir() {
         } else if (cut[i] == "b") {
             cut[i] = "ᛒ";
         } else if (cut[i] == "k" || cut[i] == "c") {
-            cut[i] = "ᚲ";
+            cut[i] = "C";
         } else if (cut[i] == "d") {
             cut[i] = "ᛞ";
         } else if (cut[i] == "e") {
@@ -46,7 +46,7 @@ document.getElementById("uno").onclick = function convertir() {
             cut[i] = "ᛈ";
         }
         else if (cut[i] == "q") {
-            cut[i] = "ᚲ";
+            cut[i] = "C";
         }
         else if (cut[i] == "r") {
             cut[i] = "ᚱ";
@@ -89,7 +89,7 @@ document.getElementById("dos").onclick = function revertir() {
     console.log(convertido);
 
     //Replacing each letter combination for its respective vowel
-    var convertir = convertido.replace(/ᛪᚲ/g, "xc").replace(/ᚹᚺ/g, "wh").replace(/ᚨ/g, "a").replace(/ᛒ/g, "b").replace(/ᚲ/g, "k" || "c").replace(/ᛞ/g, "d").replace(/ᛖ/g, "e").replace(/ᚠ/g, "f").replace(/ᚷ/g, "g").replace(/ᚺ/g, "h").replace(/ᛁ/g, "i").replace(/ᛃ/g, "j").replace(/ᛚ/g, "l").replace(/ᛗ/g, "m").replace(/ᚾ/g, "n").replace(/ᛝ/g, "ing").replace(/ᛟ/g, "o").replace(/ᛈ/g, "p").replace(/ᚲ/g, "q").replace(/ᚱ/g, "r").replace(/ᛋ/g, "s").replace(/ᛏ/g, "t").replace(/ᚢ/g, "u").replace(/ᚹ/g, "v" || "w").replace(/ᚦ/g, "th").replace(/ᛇ/g, "y").replace(/ᛉ/g, "z");
+    var convertir = convertido.replace(/ᛪᚲ/g, "xc").replace(/ᚹᚺ/g, "wh").replace(/ᚨ/g, "a").replace(/ᛒ/g, "b").replace(/c/g, "k" || "c").replace(/ᛞ/g, "d").replace(/ᛖ/g, "e").replace(/ᚠ/g, "f").replace(/ᚷ/g, "g").replace(/ᚺ/g, "h").replace(/ᛁ/g, "i").replace(/ᛃ/g, "j").replace(/ᛚ/g, "l").replace(/ᛗ/g, "m").replace(/ᚾ/g, "n").replace(/ᛝ/g, "ing").replace(/ᛟ/g, "o").replace(/ᛈ/g, "p").replace(/c/g, "q").replace(/ᚱ/g, "r").replace(/ᛋ/g, "s").replace(/ᛏ/g, "t").replace(/ᚢ/g, "u").replace(/ᚹ/g, "v" || "w").replace(/ᚦ/g, "th").replace(/ᛇ/g, "y").replace(/ᛉ/g, "z");
     console.log(convertir);
 
     //Showing the result on the white textarea
